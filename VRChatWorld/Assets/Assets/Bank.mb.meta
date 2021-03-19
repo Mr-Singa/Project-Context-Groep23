@@ -3,6 +3,65 @@ guid: b46b6423e49af064c9908773cdae7e74
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube1
+    100004: pCube2
+    100006: pCube3
+    100008: pCube4
+    100010: pCube5
+    100012: pCube6
+    100014: pCube7
+    100016: pCube8
+    100018: pCylinder1
+    100020: pCylinder2
+    100022: pCylinder3
+    100024: pCylinder4
+    100026: pCylinder5
+    100028: transform1
+    100030: transform10
+    100032: transform2
+    100034: transform3
+    100036: transform4
+    100038: transform5
+    100040: transform6
+    100042: transform7
+    100044: transform8
+    100046: transform9
+    400000: //RootNode
+    400002: pCube1
+    400004: pCube2
+    400006: pCube3
+    400008: pCube4
+    400010: pCube5
+    400012: pCube6
+    400014: pCube7
+    400016: pCube8
+    400018: pCylinder1
+    400020: pCylinder2
+    400022: pCylinder3
+    400024: pCylinder4
+    400026: pCylinder5
+    400028: transform1
+    400030: transform10
+    400032: transform2
+    400034: transform3
+    400036: transform4
+    400038: transform5
+    400040: transform6
+    400042: transform7
+    400044: transform8
+    400046: transform9
+    2100000: lambert1
+    2300000: pCube7
+    2300002: pCube8
+    2300004: pCylinder5
+    3300000: pCube7
+    3300002: pCube8
+    3300004: pCylinder5
+    4300000: pCube7
+    4300002: pCube8
+    4300004: pCylinder5
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +116,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
