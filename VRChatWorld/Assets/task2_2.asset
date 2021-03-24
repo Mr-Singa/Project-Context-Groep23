@@ -128,8 +128,8 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|[next
-          room]
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Group
+          up
       - unityObjectValue: {fileID: 0}
         stringValue: 
     - fullName: Variable_UnityEngineGameObject
@@ -194,7 +194,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
     - fullName: Event_OnPlayerTriggerEnter
       uid: a5bf2ab2-6dd8-4ca0-9126-3165a70c8553
       position: {x: 356.65353, y: -324.8929}
@@ -212,13 +212,13 @@ MonoBehaviour:
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: 7a3d628f-5484-450a-af3c-9f9b87a25e64
+    uid: 30dcea01-1677-4a5b-9d94-55b254735bbe
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":239.0,"height":124.0}}'
   - type: 4
-    uid: 18623c46-52cc-4523-af11-f93841154cc4
+    uid: 3bd7c825-3982-430f-9166-07b0516b208a
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: -61.801178, y: 331.66568}
-    scale: 0.7561437
+    position: {x: 307.1728, y: 352.27448}
+    scale: 0.65751624
   version: 1.0.0
   showAssembly: 0

@@ -10,52 +10,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: clickspwan
+  m_Name: task2blue
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 8dc80059bbc1f9846b085d6e66eecdf6,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 9d3c534499d9b8b4a8c23b05ecc5be11,
     type: 2}
-  udonAssembly: ".data_start\r\n\r\n    .export textField\r\n    .export newVariable\r\n
+  udonAssembly: ".data_start\r\n\r\n    .export textField\r\n    .export target\r\n
     \   \r\n    instance_0: %UnityEngineUIText, null\r\n    value_0: %SystemString,
-    null\r\n    instance_1: %UnityEngineCollider, null\r\n    onTriggerEnterOther:
-    %UnityEngineCollider, null\r\n    instance_2: %UnityEngineGameObject, this\r\n
-    \   value_1: %SystemBoolean, null\r\n    instance_3: %UnityEngineUIText, null\r\n
-    \   value_2: %SystemString, null\r\n    format_0: %SystemString, null\r\n    arg0_0:
-    %SystemObject, null\r\n    textField: %UnityEngineUIText, null\r\n    newVariable:
-    %UnityEngineGameObject, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export
-    _onTriggerEnter\r\n    \r\n    _onTriggerEnter:\r\n    \r\n        PUSH, textField\r\n
-    \       PUSH, instance_0\r\n        COPY\r\n        PUSH, onTriggerEnterOther\r\n
-    \       PUSH, instance_1\r\n        COPY\r\n        PUSH, instance_1\r\n        PUSH,
-    value_0\r\n        EXTERN, \"UnityEngineCollider.__get_name__SystemString\"\r\n
+    null\r\n    format_0: %SystemString, null\r\n    arg0_0: %SystemObject, null\r\n
+    \   instance_1: %UnityEngineGameObject, this\r\n    value_1: %SystemBoolean, null\r\n
+    \   instance_2: %UnityEngineUIText, null\r\n    value_2: %SystemString, null\r\n
+    \   format_1: %SystemString, null\r\n    arg0_1: %SystemObject, null\r\n    instance_3:
+    %UnityEngineGameObject, this\r\n    value_3: %SystemBoolean, null\r\n    textField:
+    %UnityEngineUIText, null\r\n    target: %UnityEngineGameObject, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
+    \   .export _onPlayerTriggerEnter\r\n    \r\n    _onPlayerTriggerEnter:\r\n    \r\n
+    \       PUSH, textField\r\n        PUSH, instance_0\r\n        COPY\r\n        PUSH,
+    format_0\r\n        PUSH, arg0_0\r\n        PUSH, value_0\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
     \       PUSH, instance_0\r\n        PUSH, value_0\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
-    \       PUSH, newVariable\r\n        PUSH, instance_2\r\n        COPY\r\n        PUSH,
-    instance_2\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onTriggerExit\r\n    \r\n    _onTriggerExit:\r\n
-    \   \r\n        PUSH, textField\r\n        PUSH, instance_3\r\n        COPY\r\n
-    \       PUSH, format_0\r\n        PUSH, arg0_0\r\n        PUSH, value_2\r\n        EXTERN,
-    \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n        PUSH,
-    instance_3\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
+    \       PUSH, target\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
+    instance_1\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPlayerTriggerExit\r\n    \r\n
+    \   _onPlayerTriggerExit:\r\n    \r\n        PUSH, textField\r\n        PUSH,
+    instance_2\r\n        COPY\r\n        PUSH, format_1\r\n        PUSH, arg0_1\r\n
+    \       PUSH, value_2\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
+    \       PUSH, instance_2\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
+    \       PUSH, target\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH,
+    instance_3\r\n        PUSH, value_3\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
     description: 
     nodes:
-    - fullName: Event_OnTriggerEnter
-      uid: a50072f4-f374-4bee-a54a-5cdf7a4f6f99
-      position: {x: 257.14398, y: -279.56094}
-      nodeUIDs: []
-      flowUIDs:
-      - de60f6d8-d3d9-4830-84c4-f83887dbdc5b
-      nodeValues: []
-    - fullName: UnityEngineCollider.__get_name__SystemString
-      uid: 28744858-c5cd-4402-a107-168fea356cd5
-      position: {x: 593.31573, y: -98.137985}
-      nodeUIDs:
-      - a50072f4-f374-4bee-a54a-5cdf7a4f6f99|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
     - fullName: Variable_UnityEngineUIText
       uid: b8929c6f-0571-49ff-989b-e6fbe4357275
       position: {x: -1640, y: -1010}
@@ -82,9 +67,9 @@ MonoBehaviour:
       position: {x: 833.6639, y: -281.81674}
       nodeUIDs:
       - 4fd68f7a-4fe7-4719-b336-cfa9b30c5a6b|0
-      - 28744858-c5cd-4402-a107-168fea356cd5|0
+      - df6f7155-277f-41f5-a588-8c5c08464ac0|0
       flowUIDs:
-      - a99975b3-daf5-4f31-9033-4821c846e8d6
+      - c692d76a-4544-4c3a-b7f7-eba882f7aa43
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -105,7 +90,8 @@ MonoBehaviour:
       nodeUIDs:
       - 1077fbea-2c40-438d-9db8-b660c7ae5122|0
       - 82dcd827-3055-4366-af81-51668d93b3d9|0
-      flowUIDs: []
+      flowUIDs:
+      - d26dc594-3a8f-4c20-8956-2278a572f1bf
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -120,7 +106,8 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|exit
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|you
+          must stay on the platform
       - unityObjectValue: {fileID: 0}
         stringValue: 
     - fullName: Get_Variable
@@ -132,15 +119,21 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|b8929c6f-0571-49ff-989b-e6fbe4357275
-    - fullName: Event_OnTriggerExit
-      uid: 851fe1c5-aa92-4bac-b6ef-e4d1595f01bb
-      position: {x: -487.2161, y: -146.22177}
-      nodeUIDs: []
-      flowUIDs:
-      - 308d470b-ed6b-481d-b8ea-5fdba95b4d0d
-      nodeValues: []
+    - fullName: SystemString.__Format__SystemString_SystemObject__SystemString
+      uid: df6f7155-277f-41f5-a588-8c5c08464ac0
+      position: {x: 475.73758, y: -88.672714}
+      nodeUIDs:
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Neighbour
+          room
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     - fullName: Variable_UnityEngineGameObject
-      uid: 11e57180-9c2f-4b15-8ca6-02660f8e8085
+      uid: ca88b81e-3ec3-4c66-8681-651c12a25563
       position: {x: 0, y: 0}
       nodeUIDs:
       - 
@@ -153,7 +146,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|newVariable
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|target
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
@@ -161,19 +154,19 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
-      uid: 9dbd9189-b935-40a8-9ed5-08eef0847370
-      position: {x: 1068.4065, y: -190.4405}
+      uid: 695997d9-4ae5-484b-8b49-973257c7444e
+      position: {x: 1047.2661, y: -182.03545}
       nodeUIDs:
       - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|11e57180-9c2f-4b15-8ca6-02660f8e8085
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ca88b81e-3ec3-4c66-8681-651c12a25563
     - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
-      uid: a99975b3-daf5-4f31-9033-4821c846e8d6
-      position: {x: 1361.5552, y: -273.32153}
+      uid: c692d76a-4544-4c3a-b7f7-eba882f7aa43
+      position: {x: 1264.1428, y: -282.7007}
       nodeUIDs:
-      - 9dbd9189-b935-40a8-9ed5-08eef0847370|0
+      - 695997d9-4ae5-484b-8b49-973257c7444e|0
       - 
       flowUIDs: []
       nodeValues:
@@ -181,6 +174,41 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+    - fullName: Get_Variable
+      uid: c2f8c887-3829-4cfa-b12e-4e5fb4d3dd27
+      position: {x: 150.14276, y: 134.1814}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ca88b81e-3ec3-4c66-8681-651c12a25563
+    - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+      uid: d26dc594-3a8f-4c20-8956-2278a572f1bf
+      position: {x: 424.69516, y: 123.99153}
+      nodeUIDs:
+      - c2f8c887-3829-4cfa-b12e-4e5fb4d3dd27|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: Event_OnPlayerTriggerEnter
+      uid: a5bf2ab2-6dd8-4ca0-9126-3165a70c8553
+      position: {x: 356.65353, y: -324.8929}
+      nodeUIDs: []
+      flowUIDs:
+      - de60f6d8-d3d9-4830-84c4-f83887dbdc5b
+      nodeValues: []
+    - fullName: Event_OnPlayerTriggerExit
+      uid: 609263f7-9e26-4e60-b336-a648f70d3eb4
+      position: {x: -254.18294, y: -201.90038}
+      nodeUIDs: []
+      flowUIDs:
+      - 308d470b-ed6b-481d-b8ea-5fdba95b4d0d
+      nodeValues: []
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -190,7 +218,7 @@ MonoBehaviour:
     uid: 3bd7c825-3982-430f-9166-07b0516b208a
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: -1245.8145, y: 584.3695}
-    scale: 1.3225
+    position: {x: 256.75494, y: 456.07544}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
