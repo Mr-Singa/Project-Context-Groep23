@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ef483a8ed575f404ca4e13bce5968a81
+guid: c6d17d0f95da0db449e72419cb9969c0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -63,13 +63,13 @@ ModelImporter:
     400056: //RootNode
     2100000: lambert1
     2100002: surfaceShader1
+    2100004: silver
     2300000: pCube5
     2300002: pCube7
     3300000: pCube5
     3300002: pCube7
     4300000: pCube5
     4300002: pCube7
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
