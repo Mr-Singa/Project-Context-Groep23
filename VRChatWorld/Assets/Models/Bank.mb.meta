@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b46b6423e49af064c9908773cdae7e74
+guid: 48263903a0c10774294662c053f27c4d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -61,7 +61,6 @@ ModelImporter:
     4300000: pCube7
     4300002: pCube8
     4300004: pCylinder5
-    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -116,7 +115,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -143,7 +142,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
