@@ -1,16 +1,36 @@
 fileFormatVersion: 2
-guid: daa97e955cf492a409d66271fd6e1952
+guid: 0fcda48f614861e42b676c4bbed1ca0a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: default
-    100002: //RootNode
-    400000: default
-    400002: //RootNode
-    2100000: defaultMat
-    2300000: default
-    3300000: default
-    4300000: default
+    100000: //RootNode
+    100002: curve1
+    100004: pCylinder1
+    100006: pSphere1
+    100008: pSphere2
+    100010: pSphere3
+    100012: pTorus1
+    100014: transform1
+    100016: transform2
+    100018: transform3
+    400000: //RootNode
+    400002: curve1
+    400004: pCylinder1
+    400006: pSphere1
+    400008: pSphere2
+    400010: pSphere3
+    400012: pTorus1
+    400014: transform1
+    400016: transform2
+    400018: transform3
+    2100000: lambert1
+    2100002: string1
+    2300000: pSphere1
+    2300002: pSphere3
+    3300000: pSphere1
+    3300002: pSphere3
+    4300000: pSphere1
+    4300002: pSphere3
   externalObjects: {}
   materials:
     importMaterials: 1
