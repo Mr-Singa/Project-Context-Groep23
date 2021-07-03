@@ -252,8 +252,14 @@ MonoBehaviour:
     jsonData: '{"uid":"17943850-08e1-4add-a49b-8f2dae086d5a","layout":{"serializedVersion":"2","x":436.27691650390627,"y":-440.4211120605469,"width":423.05670166015627,"height":117.41699981689453},"title":"The
       only difference in this graph vs ButtonSyncOwner is this one uses Send Custom
       Network Event to send the ''OnClick'' event from any user to the Owner.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  - type: 5
+    uid: e0ec3eb4-64a4-4370-b266-a241b1c21b5e
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":260.0,"height":719.0}}'
+  - type: 4
+    uid: e1d8c3e1-ae85-4a2c-8002-c3acf0c699c7
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 0, y: 0}
-    scale: 1
+    position: {x: 552.85986, y: 316.57593}
+    scale: 0.65751624
   version: 1.0.0
   showAssembly: 1

@@ -117,13 +117,13 @@ MonoBehaviour:
       you ''Set Active'' on a GameObject, you also set the ''value'' which is True
       for Active and False for Inactive","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
-    uid: cddf633d-d48d-4bda-954f-1d0dd8f691c2
+    uid: e0ec3eb4-64a4-4370-b266-a241b1c21b5e
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":206.0,"height":100.0}}'
   - type: 4
-    uid: 46d8d053-df09-42aa-b83b-0d8d8bbabc43
+    uid: e1d8c3e1-ae85-4a2c-8002-c3acf0c699c7
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 433.8843, y: 524.241}
-    scale: 0.70523417
+    position: {x: 286.59143, y: 457.73676}
+    scale: 0.712754
   version: 1.0.0
   showAssembly: 0

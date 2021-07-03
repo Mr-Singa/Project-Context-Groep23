@@ -119,13 +119,13 @@ MonoBehaviour:
       and target are public variables so you can easily change it in the Inspector
       and reuse this graph for other events","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
-    uid: 30dcea01-1677-4a5b-9d94-55b254735bbe
+    uid: e0ec3eb4-64a4-4370-b266-a241b1c21b5e
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":239.0,"height":124.0}}'
   - type: 4
-    uid: 3bd7c825-3982-430f-9166-07b0516b208a
+    uid: e1d8c3e1-ae85-4a2c-8002-c3acf0c699c7
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 523.97424, y: 377.27045}
+    position: {x: 653.69025, y: 363.3612}
     scale: 1.15
   version: 1.0.0
   showAssembly: 0
