@@ -39,6 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5882309835216927491}
+  - component: {fileID: 6727534867730509348}
   m_Layer: 0
   m_Name: pTorus1
   m_TagString: Untagged
@@ -61,6 +62,20 @@ Transform:
   m_Father: {fileID: 5882309835216927503}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6727534867730509348
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882309835216889635}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &5882309835216889637
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,6 +87,7 @@ GameObject:
   - component: {fileID: 5882309835216927493}
   - component: {fileID: 5882309835215633197}
   - component: {fileID: 5882309835214633453}
+  - component: {fileID: 7711342689720962120}
   m_Layer: 0
   m_Name: pSphere3
   m_TagString: Untagged
@@ -87,8 +103,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5882309835216889637}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5924527e-10, y: 0.06887757, z: -0.0032750275}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.5924527e-10, y: 0.0462, z: -0.0032750275}
+  m_LocalScale: {x: 1, y: 1.6310717, z: 1}
   m_Children: []
   m_Father: {fileID: 5882309835216927503}
   m_RootOrder: 4
@@ -138,6 +154,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7711342689720962120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882309835216889637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 0fcda48f614861e42b676c4bbed1ca0a, type: 3}
 --- !u!1 &5882309835216889639
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,6 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5882309835216927495}
+  - component: {fileID: 9050085388564140222}
   m_Layer: 0
   m_Name: pSphere2
   m_TagString: Untagged
@@ -169,6 +200,20 @@ Transform:
   m_Father: {fileID: 5882309835216927503}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &9050085388564140222
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882309835216889639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &5882309835216889641
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,6 +225,7 @@ GameObject:
   - component: {fileID: 5882309835216927497}
   - component: {fileID: 5882309835215633199}
   - component: {fileID: 5882309835214633455}
+  - component: {fileID: 7810490638247459419}
   m_Layer: 0
   m_Name: pSphere1
   m_TagString: Untagged
@@ -246,6 +292,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7810490638247459419
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882309835216889641}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 0fcda48f614861e42b676c4bbed1ca0a, type: 3}
 --- !u!1 &5882309835216889643
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5882309835216927499}
+  - component: {fileID: 2669179072613647224}
   m_Layer: 0
   m_Name: pCylinder1
   m_TagString: Untagged
@@ -277,6 +338,20 @@ Transform:
   m_Father: {fileID: 5882309835216927503}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2669179072613647224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882309835216889643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &5882309835216889645
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,6 +361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5882309835216927501}
+  - component: {fileID: 7291633998973158995}
   m_Layer: 0
   m_Name: curve1
   m_TagString: Untagged
@@ -307,6 +383,20 @@ Transform:
   m_Father: {fileID: 5882309835216927503}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &7291633998973158995
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882309835216889645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &5882309835216889647
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5882309835216927503}
   m_Layer: 0
-  m_Name: Balloon (2)
+  m_Name: Balloon yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,7 +422,7 @@ Transform:
   m_GameObject: {fileID: 5882309835216889647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 333.1, y: 270.9, z: 566.1}
-  m_LocalScale: {x: 136.39737, y: 136.39737, z: 136.39737}
+  m_LocalScale: {x: 26.881516, y: 26.881516, z: 26.881516}
   m_Children:
   - {fileID: 5882309835216927501}
   - {fileID: 5882309835216927499}
