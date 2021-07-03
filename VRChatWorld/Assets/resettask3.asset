@@ -364,7 +364,12 @@ MonoBehaviour:
     uid: e1d8c3e1-ae85-4a2c-8002-c3acf0c699c7
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
+<<<<<<< HEAD
     position: {x: 552.35614, y: 351.70007}
     scale: 0.7561437
+=======
+    position: {x: 429.37405, y: 333.9194}
+    scale: 0.49717674
+>>>>>>> origin/Sean
   version: 1.0.0
   showAssembly: 0
