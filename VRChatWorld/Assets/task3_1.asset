@@ -15,27 +15,39 @@ MonoBehaviour:
   serializedUdonProgramAsset: {fileID: 11400000, guid: a54372351bd2e864e9fd554bda6166ee,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export textField\r\n    .export target\r\n
-    \   .export resettarget\r\n    \r\n    instance_0: %UnityEngineUIText, null\r\n
-    \   value_0: %SystemString, null\r\n    format_0: %SystemString, null\r\n    arg0_0:
-    %SystemObject, null\r\n    instance_1: %UnityEngineGameObject, this\r\n    value_1:
-    %SystemBoolean, null\r\n    instance_2: %UnityEngineUIText, null\r\n    value_2:
-    %SystemString, null\r\n    format_1: %SystemString, null\r\n    arg0_1: %SystemObject,
-    null\r\n    instance_3: %VRCUdonUdonBehaviour, this\r\n    eventName_0: %SystemString,
-    null\r\n    textField: %UnityEngineUIText, null\r\n    target: %UnityEngineGameObject,
-    this\r\n    resettarget: %VRCUdonUdonBehaviour, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
-    \   .export _onPlayerTriggerEnter\r\n    \r\n    _onPlayerTriggerEnter:\r\n    \r\n
-    \       PUSH, textField\r\n        PUSH, instance_0\r\n        COPY\r\n        PUSH,
-    format_0\r\n        PUSH, arg0_0\r\n        PUSH, value_0\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
-    \       PUSH, instance_0\r\n        PUSH, value_0\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
-    \       PUSH, target\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
-    instance_1\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
+    \   .export resettarget\r\n    \r\n    instance_0: %VRCUdonUdonBehaviour, this\r\n
+    \   target_0: %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n    eventName_0:
+    %SystemString, null\r\n    instance_1: %VRCUdonUdonBehaviour, this\r\n    target_1:
+    %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n    eventName_1: %SystemString,
+    null\r\n    instance_2: %UnityEngineUIText, null\r\n    value_0: %SystemString,
+    null\r\n    format_0: %SystemString, null\r\n    arg0_0: %SystemObject, null\r\n
+    \   instance_3: %VRCUdonUdonBehaviour, this\r\n    target_2: %VRCUdonCommonInterfacesNetworkEventTarget,
+    null\r\n    eventName_2: %SystemString, null\r\n    instance_4: %UnityEngineUIText,
+    null\r\n    value_1: %SystemString, null\r\n    format_1: %SystemString, null\r\n
+    \   arg0_1: %SystemObject, null\r\n    instance_5: %UnityEngineGameObject, this\r\n
+    \   value_2: %SystemBoolean, null\r\n    textField: %UnityEngineUIText, null\r\n
+    \   target: %UnityEngineGameObject, this\r\n    resettarget: %VRCUdonUdonBehaviour,
+    this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPlayerTriggerEnter\r\n
+    \   \r\n    _onPlayerTriggerEnter:\r\n    \r\n        PUSH, instance_0\r\n        PUSH,
+    target_0\r\n        PUSH, eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPlayerTriggerExit\r\n    \r\n
-    \   _onPlayerTriggerExit:\r\n    \r\n        PUSH, textField\r\n        PUSH,
-    instance_2\r\n        COPY\r\n        PUSH, format_1\r\n        PUSH, arg0_1\r\n
-    \       PUSH, value_2\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
-    \       PUSH, instance_2\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
+    \   _onPlayerTriggerExit:\r\n    \r\n        PUSH, instance_1\r\n        PUSH,
+    target_1\r\n        PUSH, eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export task3part1\r\n    \r\n    task3part1:\r\n
+    \   \r\n        PUSH, textField\r\n        PUSH, instance_2\r\n        COPY\r\n
+    \       PUSH, format_0\r\n        PUSH, arg0_0\r\n        PUSH, value_0\r\n        EXTERN,
+    \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n        PUSH,
+    instance_2\r\n        PUSH, value_0\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
     \       PUSH, resettarget\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH,
-    instance_3\r\n        PUSH, eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    instance_3\r\n        PUSH, target_2\r\n        PUSH, eventName_2\r\n        EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export task3part2\r\n    \r\n    task3part2:\r\n
+    \   \r\n        PUSH, textField\r\n        PUSH, instance_4\r\n        COPY\r\n
+    \       PUSH, format_1\r\n        PUSH, arg0_1\r\n        PUSH, value_1\r\n        EXTERN,
+    \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n        PUSH,
+    instance_4\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
+    \       PUSH, target\r\n        PUSH, instance_5\r\n        COPY\r\n        PUSH,
+    instance_5\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -92,7 +104,7 @@ MonoBehaviour:
       - 1077fbea-2c40-438d-9db8-b660c7ae5122|0
       - 82dcd827-3055-4366-af81-51668d93b3d9|0
       flowUIDs:
-      - 8fd4e32c-fc02-4387-843a-06f5715d471c
+      - a04f5b63-efb4-4889-a564-ed30392d7753
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -179,28 +191,15 @@ MonoBehaviour:
       position: {x: 356.65353, y: -324.8929}
       nodeUIDs: []
       flowUIDs:
-      - de60f6d8-d3d9-4830-84c4-f83887dbdc5b
+      - 13736357-f891-4f86-893d-d07e97ed2682
       nodeValues: []
     - fullName: Event_OnPlayerTriggerExit
       uid: 609263f7-9e26-4e60-b336-a648f70d3eb4
       position: {x: -254.18294, y: -201.90038}
       nodeUIDs: []
       flowUIDs:
-      - 308d470b-ed6b-481d-b8ea-5fdba95b4d0d
+      - 8d234c44-09e2-48ee-8440-2f0a935a617c
       nodeValues: []
-    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
-      uid: 8fd4e32c-fc02-4387-843a-06f5715d471c
-      position: {x: 504.32242, y: 101.23454}
-      nodeUIDs:
-      - 741a4a42-c803-4130-8c8e-6616520869f9|0
-      - 
-      flowUIDs:
-      - 
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Toggle
     - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
       uid: 24b8d08d-8360-4152-afa1-fcffb603b5ef
       position: {x: 0, y: 0}
@@ -231,16 +230,87 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|24b8d08d-8360-4152-afa1-fcffb603b5ef
+    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
+      uid: 8d234c44-09e2-48ee-8440-2f0a935a617c
+      position: {x: 1.8576852, y: -518.8552}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: VRC.Udon.Common.Interfaces.NetworkEventTarget, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|All
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|task3part1
+    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
+      uid: a04f5b63-efb4-4889-a564-ed30392d7753
+      position: {x: 436.57327, y: 85.36046}
+      nodeUIDs:
+      - 741a4a42-c803-4130-8c8e-6616520869f9|0
+      - 
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: VRC.Udon.Common.Interfaces.NetworkEventTarget, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|All
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Toggle
+    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
+      uid: 13736357-f891-4f86-893d-d07e97ed2682
+      position: {x: 582.44806, y: -553.00696}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: VRC.Udon.Common.Interfaces.NetworkEventTarget, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|All
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|task3part2
+    - fullName: Event_Custom
+      uid: cba24552-3e5d-4c0d-a931-adab5d4e9861
+      position: {x: -30.78872, y: -223.1539}
+      nodeUIDs:
+      - 
+      flowUIDs:
+      - 308d470b-ed6b-481d-b8ea-5fdba95b4d0d
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|task3part1
+    - fullName: Event_Custom
+      uid: f6a3dc63-ee73-4bd0-ae31-85ee4c86d9e3
+      position: {x: 598.2613, y: -334.1517}
+      nodeUIDs:
+      - 
+      flowUIDs:
+      - de60f6d8-d3d9-4830-84c4-f83887dbdc5b
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|task3part2
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: 30dcea01-1677-4a5b-9d94-55b254735bbe
+    uid: e0ec3eb4-64a4-4370-b266-a241b1c21b5e
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":239.0,"height":124.0}}'
   - type: 4
-    uid: 3bd7c825-3982-430f-9166-07b0516b208a
+    uid: e1d8c3e1-ae85-4a2c-8002-c3acf0c699c7
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 183.31961, y: 305.61285}
+    position: {x: 119.74127, y: 409.46432}
     scale: 0.65751624
   version: 1.0.0
   showAssembly: 0
