@@ -81,7 +81,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: 4fd68f7a-4fe7-4719-b336-cfa9b30c5a6b
-      position: {x: 343.5887, y: -180.87482}
+      position: {x: 332.08878, y: -159.02481}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -90,7 +90,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|b8929c6f-0571-49ff-989b-e6fbe4357275
     - fullName: SystemString.__Format__SystemString_SystemObject__SystemString
       uid: df6f7155-277f-41f5-a588-8c5c08464ac0
-      position: {x: 425.54868, y: -101.32635}
+      position: {x: 238.09872, y: -63.008373}
       nodeUIDs:
       - 
       - 
@@ -197,7 +197,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|478c5158-70cf-4f64-ae89-5db45dc3e350
     - fullName: SystemString.__Format__SystemString_SystemObject__SystemString
       uid: c56a5071-bccb-4ac4-ad3e-2da0f3826a2e
-      position: {x: 741.6578, y: -31.599848}
+      position: {x: 682.1454, y: -75.2424}
       nodeUIDs:
       - 
       - 
@@ -288,13 +288,13 @@ MonoBehaviour:
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: e0ec3eb4-64a4-4370-b266-a241b1c21b5e
+    uid: cf5e98df-e3bc-41c1-87b7-ac62325c1e08
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":216.0,"height":264.0}}'
   - type: 4
-    uid: e1d8c3e1-ae85-4a2c-8002-c3acf0c699c7
+    uid: de28d52a-bd8c-42e8-9315-4f08d2c412c0
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: -11.946366, y: 549.103}
-    scale: 0.57175326
+    position: {x: 329.37585, y: 455.57217}
+    scale: 0.49717674
   version: 1.0.0
   showAssembly: 0
