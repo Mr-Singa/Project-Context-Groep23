@@ -209,10 +209,8 @@
 			}
 				ENDCG
 		}// End Outline Pass
-
-		// Shadow casting
-		UsePass "Legacy Shaders/VertexLit/SHADOWCASTER"
 	}
 
 	CustomEditor "CelCustomEditor"
+		Fallback "Diffuse"
 }
