@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: task3_2
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 4aa175e7409c9714ba4cb66af982958a,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 7b89842edfca1b746b77b6b79ccf2d64,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export textField\r\n    .export target\r\n
     \   .export resettarget\r\n    \r\n    instance_0: %UnityEngineUIText, null\r\n
