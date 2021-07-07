@@ -19,10 +19,10 @@ MonoBehaviour:
     \   value_0: %SystemString, null\r\n    format_0: %SystemString, null\r\n    arg0_0:
     %SystemObject, null\r\n    instance_1: %VRCUdonUdonBehaviour, this\r\n    target_0:
     %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n    eventName_0: %SystemString,
-    null\r\n    instance_2: %UnityEngineUIText, null\r\n    value_1: %SystemString,
+    null\r\n    instance_4: %UnityEngineUIText, null\r\n    value_3: %SystemString,
     null\r\n    format_1: %SystemString, null\r\n    arg0_1: %SystemObject, null\r\n
+    \   instance_2: %UnityEngineGameObject, this\r\n    value_1: %SystemBoolean, null\r\n
     \   instance_3: %UnityEngineGameObject, this\r\n    value_2: %SystemBoolean, null\r\n
-    \   instance_4: %UnityEngineGameObject, this\r\n    value_3: %SystemBoolean, null\r\n
     \   textField: %UnityEngineUIText, null\r\n    dooropen: %UnityEngineGameObject,
     this\r\n    doorclosed: %UnityEngineGameObject, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
     \   .export _onPlayerTriggerEnter\r\n    \r\n    _onPlayerTriggerEnter:\r\n    \r\n
@@ -31,16 +31,20 @@ MonoBehaviour:
     \       PUSH, instance_0\r\n        PUSH, value_0\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
     \       PUSH, instance_1\r\n        PUSH, target_0\r\n        PUSH, eventName_0\r\n
     \       EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n
+    \       PUSH, dooropen\r\n        PUSH, instance_2\r\n        COPY\r\n        PUSH,
+    instance_2\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
+    \       PUSH, doorclosed\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH,
+    instance_3\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPlayerTriggerExit\r\n    \r\n
     \   _onPlayerTriggerExit:\r\n    \r\n        PUSH, textField\r\n        PUSH,
-    instance_2\r\n        COPY\r\n        PUSH, format_1\r\n        PUSH, arg0_1\r\n
-    \       PUSH, value_1\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
-    \       PUSH, instance_2\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
+    instance_4\r\n        COPY\r\n        PUSH, format_1\r\n        PUSH, arg0_1\r\n
+    \       PUSH, value_3\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
+    \       PUSH, instance_4\r\n        PUSH, value_3\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export turnontask2_4\r\n    \r\n    turnontask2_4:\r\n
-    \   \r\n        PUSH, dooropen\r\n        PUSH, instance_3\r\n        COPY\r\n
-    \       PUSH, instance_3\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
-    \       PUSH, doorclosed\r\n        PUSH, instance_4\r\n        COPY\r\n        PUSH,
-    instance_4\r\n        PUSH, value_3\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
+    \   \r\n        PUSH, dooropen\r\n        PUSH, instance_2\r\n        COPY\r\n
+    \       PUSH, instance_2\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
+    \       PUSH, doorclosed\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH,
+    instance_3\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -196,7 +200,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Event_Custom
       uid: f14dc8c1-59ad-4b78-a2f2-a0645920cf47
-      position: {x: 1060.8451, y: -393.99344}
+      position: {x: 1017.44904, y: -399.25354}
       nodeUIDs:
       - 
       flowUIDs:
@@ -211,7 +215,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      flowUIDs: []
+      flowUIDs:
+      - c692d76a-4544-4c3a-b7f7-eba882f7aa43
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -265,13 +270,13 @@ MonoBehaviour:
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: 425cc0b7-40b8-48b8-b872-77fa09efff90
+    uid: 428d9330-8cda-42b9-b5b6-e443a36e9063
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":239.0,"height":124.0}}'
   - type: 4
-    uid: 496044aa-a07a-449b-a546-c721da3ffed9
+    uid: 5463b457-9637-4dcd-8a84-f6e2e64ec901
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: -514.4772, y: 619.0852}
+    position: {x: -248.30798, y: 860.67633}
     scale: 1
   version: 1.0.0
   showAssembly: 0
